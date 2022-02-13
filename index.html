@@ -1,0 +1,44 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<style>
+    .old-paper {
+        position: relative;
+    }
+
+    .original-image {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .overlay {
+        mix-blend-mode: multiply;
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .overlay img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="old-paper">
+    <img class="original-image" src="./gita/1-5.jpg" />
+    <img class="original-image" src="./gita/6-11.jpg" />
+    <img class="original-image" src="./gita/12-18.jpg" />
+    <img class="original-image" src="./gita/19-24.jpg" />
+    <img class="original-image" src="./gita/25-30.jpg" />
+    <img class="original-image" src="./gita/31-37.jpg" />
+    <img class="original-image" src="./gita/38-42.jpg" />
+    <img class="original-image" src="./gita/43-47.jpg" />
+    <hr>
+    <img class="original-image" src="./gita/footer1.jpg" />
+    <img class="original-image" src="./gita/footer2.jpg" />
+    <div class="overlay">
+        <img src="./gita/background.png">
+    </div>
+</div>
